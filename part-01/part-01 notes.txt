@@ -1,0 +1,54 @@
+
+[Foreign Topic]
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+[Local Topic]
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+[Defence Topic]
+
+- To get PL3 Data Science.
+
+- Fitness Watches
+- IPPT/NAPFA Location
+
+
+- Terrorism, Counter Terrorism
+- Locatin: Singapore, Global
+- Type: Lone Wolf, Organised, Maritime
+
+- Ministry of Defence
+- Only 4 datasets available.
+- Locations of fitness places.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+[Data.gov.sg]
+
+Economy: Lots of Data. Many Updated.
+Education: More public than private
+Environment: Weather, Recycling, Food
+Finance: Small Datasets.
+Health: Government, Number of Workers, Dengue
+Infrastructure: Land Use, HDB, Tree?
+Society: CCs, Population, Childcare, Prisons
+Technology: Mobile, HP, Hotspots
+Transport: Public, Roads, Fares, Parking
+
+
+
+
