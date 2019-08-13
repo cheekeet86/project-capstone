@@ -14,4 +14,4 @@ Coming Soon to ClassRoom 2
 
 ## Credits
 
-Finding Sponsors!
+[1] Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. http://doi.org/10.5281/zenodo.53894
