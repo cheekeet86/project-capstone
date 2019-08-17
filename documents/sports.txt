@@ -1,0 +1,43 @@
+run,treadmill running
+walk,fitness walking,treadmill walking
+
+hiking
+orienteering
+
+climbing             
+stair climing  
+
+bike,mountain bike,bike (transport),indoor cycling
+skate
+
+squash                      
+tennis
+table tennis
+badminton
+
+windsurfing,kite surfing
+swimming
+kayaking
+rowing              
+sailing      
+
+cross-country skiing,downhill skiing,roller skiing
+snowboarding
+snowshoeing            
+
+core stability training                  
+circuit training              
+weight training
+elliptical
+
+aerobics 
+gymnastics
+martial arts
+pilates,yoga                   
+                   
+soccer        
+basketball 
+rugby                  
+                      
+golf               
+horseback riding
