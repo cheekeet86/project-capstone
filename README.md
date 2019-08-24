@@ -6,11 +6,17 @@
 
 ## Episode II
 
-Coming Soon to ClassRoom 2
+![Coming Soon](images/part-02/joy_of_data.jpg)
 
 <br>
 
-![Coming Soon](images/part-02/joy_of_data.jpg)
+### Fitbit Datasets
+
+Coming Soon
+
+### FitRec Datasets
+
+Coming Soon
 
 ## Credits
 
