@@ -66,6 +66,8 @@ The summary tables were used as props aka "Model Predictors" in EPISODE IV.
 
 GA Student: Who has stolen Episode 3?
 
-Slackbot: I heard rumours that Mario has hidden the video cartridge in his Kart.. he is racing the inaugural GA X Mario Kart Tournament this Friday.
+Slackbot: I heard rumours that Mario has hidden the video cartridge in his Kart.. he is racing in the inaugural GA X Mario Kart Tournament this Friday.
+
+[<<< Rewind to Episode I](../README.md)
 
 <br>
