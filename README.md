@@ -4,7 +4,7 @@
 
 ![No Problem](images/part-01/No-Problem-Review-01.jpg)
 
-[click here to watch this episode](documents/part-01.pptx)
+[click here to watch this episode](documents/part-01.pdf)
 
 ## Episode II
 
