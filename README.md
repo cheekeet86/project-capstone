@@ -40,9 +40,9 @@ Firstly, I performed data cleaning e.g. imputed participators' height using weig
 
 ### FitRec Datasets
 
-I decided to obtain another dataset from the FitRect Project (find out why in EPISODE III). The  datasets contains 253,020 workouts from 1,104 Endomondo users.
+I decided to obtain another dataset from the FitRect Project.. find out why in EPISODE III! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
 
-The raw dataset was stored as a single 6-gigabyte json file. I had to split the massive file into smaller json files (1,000 json per file initially but changed to 100 later for faster inspection in Notepad++).
+The raw dataset was stored as a single 6-gigabyte json file and hence I had to splie the massive file into smaller json files. 
 
 Each workout contained detailed information e.g. gender, sport, location, altitude, timestamp, heart-rate and speed. However, there were missing information in the datasets e.g. no speed data for 80% of the workouts.
 
@@ -51,8 +51,22 @@ The smaller json files contains missing or additional data:
 | Attribute | Unit | Type | Description |
 | --- | --- | --- | --- |
 | Speed | km/h | Missing | Calculated using derived Distance and Time Difference |
-| Distance | metre | Addtional | Derived from Latitude and Longitude using Haversine formula |
-| Time Difference | second | Addtional | Time Difference between conseucitve Timestamp |
+| Distance | m | Additional | Derived from Latitude and Longitude using Haversine formula |
+| Time Difference | sec | Additional | Time Difference between conseucitve Timestamp |
+
+Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv. Each row represents a workout:
+
+| Type | Attributes |
+| --- | --- |
+| Meta | Workout ID, User ID, Gender, Sport, URL |
+| Time | Start, End, Duration |
+| Location | Start/End Latitude/Longtitude |
+| Altitude | Avg/Min/Max, Different Percentiles and Difference (Max-Min) |
+| Heart-Rate | Avg/Min/Max and Different Perentiles and Heart-Rate Zones |
+| Speed | Avg/Min/Max and Different Perentiles and Speed Zones |
+| Impute | 0: Original Speed 1: Dervied Speed |
+
+The summary tables were used as props aka "Model Predictors" in EPISODE IV.
 
 <br>
 
