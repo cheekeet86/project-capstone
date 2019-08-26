@@ -2,11 +2,13 @@
 
 ## Episode I
 
-[Click Here](documents/part-01.pptx)
+![No Problem](images/part-01/No-Problem-Review-01.jpg)
+
+[click here to watch this episode](documents/part-01.pptx)
 
 ## Episode II
 
-![Coming Soon](images/part-02/joy_of_data.jpg)
+![Joy of Data](images/part-02/joy_of_data.jpg)
 
 <br>
 
