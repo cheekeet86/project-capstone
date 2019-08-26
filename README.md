@@ -10,7 +10,7 @@
 
 ## Episode II
 
-[watch now: a day in the life of a data collector](documents/part-02.md)
+[watch now : a day in the life of a data collector](documents/part-02.md)
 
 <br>
 
