@@ -18,6 +18,8 @@ The raw datasets contain:
 - Heart Rate by Second
 - Weight and BMI Data
 
+<br>
+
 I worked on the 1st month of the datasets (instead of 2 months) to access if the datasets were suitable for developing a prediction model.
 
 Firstly, I performed data cleaning e.g. imputed participators' height using weight and BMI. Next, I merged the raw datasets (which were separated initially) by creating the following output files:
@@ -46,6 +48,8 @@ The smaller json files contains missing or additional data:
 | Distance | m | Additional | Derived from Latitude and Longitude using Haversine formula |
 | Time Difference | sec | Additional | Time Difference between conseucitve Timestamp |
 
+<br>
+
 Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv. Each row represents a workout:
 
 | Type | Attributes |
@@ -57,6 +61,8 @@ Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv
 | Heart-Rate | Avg/Min/Max and Different Perentiles and Heart-Rate Zones |
 | Speed | Avg/Min/Max and Different Perentiles and Speed Zones |
 | Impute | 0: Original Speed 1: Dervied Speed |
+
+<br>
 
 The summary tables were used as props aka "Model Predictors" in EPISODE IV.
 
