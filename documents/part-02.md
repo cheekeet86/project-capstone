@@ -46,7 +46,7 @@ The smaller json files contains missing or additional data:
 | --- | --- | --- | --- |
 | Speed | km/h | Missing | Calculated using derived Distance and Time Difference |
 | Distance | m | Additional | Derived from Latitude and Longitude using Haversine formula |
-| Time Difference | sec | Additional | Time Difference between conseucitve Timestamp |
+| Time Difference | sec | Additional | Time Difference between consecutive Timestamps |
 
 <br>
 
