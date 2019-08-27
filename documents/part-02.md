@@ -20,7 +20,7 @@ The raw datasets contain the following information:
 
 <br>
 
-I worked on the 1st month of the datasets (instead of 2 months) to access if the datasets were suitable for developing a prediction model.
+I worked on the 1st month of the datasets (instead of 2 months) to assess if the datasets were suitable for developing a prediction model.
 
 Firstly, I performed data cleaning e.g. imputed participators' height using weight and BMI. Next, I merged the raw datasets (which were separated initially) by creating the following output files:
 
@@ -34,7 +34,7 @@ Firstly, I performed data cleaning e.g. imputed participators' height using weig
 
 ### FitRec Datasets
 
-I decided to obtain another dataset from the FitRec Project.. find out why in EPISODE 3! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
+I decided to obtain another dataset from the FitRec Project.. find out why in Episode 3! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
 
 The raw dataset was stored as a single 6-gigabyte json file and hence I had to split the massive file into smaller json files. 
 
