@@ -64,7 +64,7 @@ Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv
 
 <br>
 
-The summary tables were used as props aka "Model Predictors" in EPISODE IV.
+The summary tables were used as props aka "Model Predictors" in Episode 5.
 
 <br>
 
