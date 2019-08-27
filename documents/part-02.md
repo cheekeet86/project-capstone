@@ -34,9 +34,9 @@ Firstly, I performed data cleaning e.g. imputed participators' height using weig
 
 ### FitRec Datasets
 
-I decided to obtain another dataset from the FitRect Project.. find out why in EPISODE III! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
+I decided to obtain another dataset from the FitRect Project.. find out why in EPISODE 3! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
 
-The raw dataset was stored as a single 6-gigabyte json file and hence I had to splie the massive file into smaller json files. 
+The raw dataset was stored as a single 6-gigabyte json file and hence I had to split the massive file into smaller json files. 
 
 Each workout contained detailed information e.g. gender, sport, location, altitude, timestamp, heart-rate and speed. However, there were missing information in the datasets e.g. no speed data for 80% of the workouts.
 
