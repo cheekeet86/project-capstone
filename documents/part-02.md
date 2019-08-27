@@ -56,10 +56,10 @@ Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv
 | --- | --- |
 | Meta | Workout ID, User ID, Gender, Sport, URL |
 | Time | Start, End, Duration |
-| Location | Start/End Latitude/Longitude |
+| Location | Start/End Latitude/Longit,ude |
 | Altitude | Avg/Min/Max, Different Percentiles and Difference (Max-Min) |
-| Heart-Rate | Avg/Min/Max and Different Percentiles and Heart-Rate Zones |
-| Speed | Avg/Min/Max and Different Percentiles and Speed Zones |
+| Heart-Rate | Avg/Min/Max Different Percentiles and Heart-Rate Zones |
+| Speed | Avg/Min/MaxDifferent,  Percentiles and Speed Zones |
 | Impute | 0: Original Speed 1: Derived Speed |
 
 <br>
