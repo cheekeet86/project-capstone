@@ -34,7 +34,7 @@ Firstly, I performed data cleaning e.g. imputed participators' height using weig
 
 ### FitRec Datasets
 
-I decided to obtain another dataset from the FitRect Project.. find out why in EPISODE 3! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
+I decided to obtain another dataset from the FitRec Project.. find out why in EPISODE 3! The  datasets contains 253,020 workouts from 1,104 Endomondo users.
 
 The raw dataset was stored as a single 6-gigabyte json file and hence I had to split the massive file into smaller json files. 
 
@@ -56,11 +56,11 @@ Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv
 | --- | --- |
 | Meta | Workout ID, User ID, Gender, Sport, URL |
 | Time | Start, End, Duration |
-| Location | Start/End Latitude/Longtitude |
+| Location | Start/End Latitude/Longitude |
 | Altitude | Avg/Min/Max, Different Percentiles and Difference (Max-Min) |
-| Heart-Rate | Avg/Min/Max and Different Perentiles and Heart-Rate Zones |
-| Speed | Avg/Min/Max and Different Perentiles and Speed Zones |
-| Impute | 0: Original Speed 1: Dervied Speed |
+| Heart-Rate | Avg/Min/Max and Different Percentiles and Heart-Rate Zones |
+| Speed | Avg/Min/Max and Different Percentiles and Speed Zones |
+| Impute | 0: Original Speed 1: Derived Speed |
 
 <br>
 
