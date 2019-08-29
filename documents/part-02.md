@@ -72,11 +72,20 @@ The summary tables were used as props aka "Model Predictors" in Episode 4.
 
 ## Episode III
 
+<b>Important Announcement</b>
+
+- We found Mario's Kart and the cartridge in 79 Anson Road.
+- [Click here to watch the video](part-03.md)
+
+<br>
+
 ![Mario Kart](../images/part-02/mario_kart_IRL.jpg)
 
-GA Student: Who has stolen Episode 3?
+<i>Wed Message Log:</i>
 
-Slackbot: I heard rumours that Mario has hidden the video cartridge in his Kart.. he is racing in the inaugural GA X Mario Kart Tournament this Friday.
+<i>GA Student: Who has stolen Episode 3?</i>
+
+<i>Slackbot: I heard rumours that Mario has hidden the video cartridge in his Kart.. he is racing in the inaugural GA X Mario Kart Tournament this Friday.</i>
 
 <br>
 
