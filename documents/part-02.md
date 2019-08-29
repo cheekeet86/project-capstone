@@ -50,7 +50,9 @@ The smaller json files contains missing or additional data:
 
 <br>
 
-Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv. Each row represents a workout:
+Next, I created summary tables e.g. endomondoHR_proper_dist_spd_time_summary.csv. 
+
+Each row represents a workout:
 
 | Type | Attributes |
 | --- | --- |
