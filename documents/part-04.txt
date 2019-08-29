@@ -12,3 +12,11 @@
 ['lr', 'knn', 'dtc', 'rfc', 'abc', 'gbc']
 [0.5228796296296296, 0.9687777777777777, 0.5104814814814815, 0.5543796296296296, 0.43633333333333335, 0.959287037037037]
 [{'lr__penalty': 'l2'}, {'knn__n_neighbors': 3, 'knn__weights': 'distance'}, {'dtc__max_depth': 9, 'dtc__max_features': None, 'dtc__min_samples_split': 0.1}, {'rfc__max_depth': 13, 'rfc__max_features': 'auto', 'rfc__min_samples_split': 0.1, 'rfc__n_estimators': 15}, {'abc__learning_rate': 0.7428571428571429, 'abc__n_estimators': 50}, {'gbc__learning_rate': 0.48571428571428577, 'gbc__max_depth': 3, 'gbc__n_estimators': 100}]
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95']
+
+['lr', 'knn', 'dtc', 'rfc', 'abc', 'gbc']
+[0.514962962962963, 0.9781666666666666, 0.5673888888888889, 0.5728055555555556, 0.474, 0.9740092592592593]
+[{'lr__penalty': 'l1'}, {'knn__n_neighbors': 3, 'knn__weights': 'distance'}, {'dtc__max_depth': 7, 'dtc__max_features': None, 'dtc__min_samples_split': 0.1}, {'rfc__max_depth': 7, 'rfc__max_features': 'log2', 'rfc__min_samples_split': 0.1, 'rfc__n_estimators': 15}, {'abc__learning_rate': 0.3571428571428572, 'abc__n_estimators': 50}, {'gbc__learning_rate': 0.6142857142857143, 'gbc__max_depth': 3, 'gbc__n_estimators': 100}]
