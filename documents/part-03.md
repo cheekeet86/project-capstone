@@ -32,6 +32,12 @@ Links: [2_eda_fitbit](../code/fitbit/2_eda_fitbit.ipynb)
 
 ### FitRec EDA
 
+Firstly, I created charts of selected individual workouts e.g. workout route with altitude, speed over time. I realised the timestamps had varying intervals and performed additional data cleansing (i.e. created a time difference column for each json). In addition, I created a lineplot to compare heart-rates for 2 different workouts e.g. cycling and running. I realised I could create a prediction model to classication workout types using features like heart-rate zones.
+
+
+
+blank
+
 blank
 
 Links: [2_eda_fitrec](../code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](../code/fitrec/2_eda_fitrec_2.ipynb) | [Tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec/Gender)
