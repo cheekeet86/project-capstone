@@ -34,11 +34,18 @@ Links: [2_eda_fitbit](../code/fitbit/2_eda_fitbit.ipynb)
 
 Firstly, I created charts of selected individual workouts e.g. workout route with altitude, speed over time. I realised the timestamps had varying intervals and performed additional data cleansing (i.e. created a time difference column for each json). In addition, I created a lineplot to compare heart-rates for 2 different workouts e.g. cycling and running. I realised I could create a prediction model to classication workout types using features like heart-rate zones.
 
+I created boxplots by grouping workout types for Time, Altitude, Heart-Rate and Speed data. I discovered workouts with abnormal data:
 
+- Workouts which are over 24 hours.
+- Negative and high altitudes (higher than Mount Everest)
+- Negative and low heart-rates (i.e. below resting heart-rate of 40 BPM).
+- Speed which broke each sport's world record.
 
-blank
+I removed these outliers during the modelling process.
 
-blank
+I created scatterplots e.g. Heart-Rate vs Speed by Sports. I could use heart-rates (either using aggregated values or zones) and speed (aggregate values) as features to develop the classification model.
+
+blank (Tableau)
 
 Links: [2_eda_fitrec](../code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](../code/fitrec/2_eda_fitrec_2.ipynb) | [Tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec/Gender)
 
