@@ -1,0 +1,14 @@
+
+3_model_fitrec (hr_zone spd_avg spd_max gridsearch):
+
+['lr', 'knn', 'dtc', 'rfc', 'abc', 'gbc']
+[0.5149907407407407, 0.9781481481481481, 0.5673888888888889, 0.5728518518518518, 0.4740740740740741, 0.9749629629629629]
+[{'lr__penalty': 'l1'}, {'knn__n_neighbors': 3, 'knn__weights': 'distance'}, {'dtc__max_depth': 7, 'dtc__max_features': None, 'dtc__min_samples_split': 0.1}, {'rfc__max_depth': 11, 'rfc__max_features': 'auto', 'rfc__min_samples_split': 0.1, 'rfc__n_estimators': 25}, {'abc__learning_rate': 0.3571428571428572, 'abc__n_estimators': 50}, {'gbc__learning_rate': 0.6142857142857143, 'gbc__max_depth': 3, 'gbc__n_estimators': 100}]
+
+-------------------------------------------------------------------------------------------------------------
+
+3_model_fitrec (zone_spd_hr):
+
+['lr', 'knn', 'dtc', 'rfc', 'abc', 'gbc']
+[0.5228796296296296, 0.9687777777777777, 0.5104814814814815, 0.5543796296296296, 0.43633333333333335, 0.959287037037037]
+[{'lr__penalty': 'l2'}, {'knn__n_neighbors': 3, 'knn__weights': 'distance'}, {'dtc__max_depth': 9, 'dtc__max_features': None, 'dtc__min_samples_split': 0.1}, {'rfc__max_depth': 13, 'rfc__max_features': 'auto', 'rfc__min_samples_split': 0.1, 'rfc__n_estimators': 15}, {'abc__learning_rate': 0.7428571428571429, 'abc__n_estimators': 50}, {'gbc__learning_rate': 0.48571428571428577, 'gbc__max_depth': 3, 'gbc__n_estimators': 100}]
