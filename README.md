@@ -138,7 +138,7 @@ Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fi
 
 ## Episode IV
 
-Report will be out in 2054..
+<i>Report will be out in 2054..</i>
 
 ## Credits
 
