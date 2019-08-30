@@ -2,7 +2,7 @@
 
 ## Episode I
 
-![Slide 1](documents/part-01/part-01-1.PNG)
+![Slide 1](images/part-01/No-Problem-Review-01.jpg)
 
 ![Slide 2](documents/part-01/part-01-2.PNG)
 
