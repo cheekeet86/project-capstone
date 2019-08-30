@@ -10,7 +10,7 @@
 
 ## Episode II
 
-![Joy of Data](../images/part-02/joy_of_data.jpg)
+![Joy of Data](images/part-02/joy_of_data.jpg)
 
 <br>
 
