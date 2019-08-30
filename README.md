@@ -2,11 +2,16 @@
 
 ## Episode I
 
-![No Problem](images/part-01/No-Problem-Review-01.jpg)
+![Slide 1](documents/part-01/part-01-1.PNG)
 
-[click here to watch this episode](documents/part-01.pdf)
+![Slide 2](documents/part-01/part-01-2.PNG)
 
-<br>
+![Slide 3](documents/part-01/part-01-3.PNG)
+
+![Slide 4](documents/part-01/part-01-4.PNG)
+
+![Slide 5](documents/part-01/part-01-5.PNG)
+
 
 ## Episode II
 
