@@ -12,6 +12,8 @@
 
 ![Slide 5](documents/part-01/part-01-5.PNG)
 
+![Slide 6](documents/part-01/part-01-6.PNG)
+
 
 ## Episode II
 
