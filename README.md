@@ -132,7 +132,7 @@ I created scatterplots e.g. Heart-Rate vs Speed by Sports. I could use heart-rat
 
 <b>blank (Tableau)</b>
 
-Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fitrec/2_eda_fitrec_2.ipynb) | [tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec/Gender)
+Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fitrec/2_eda_fitrec_2.ipynb) | [tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec_2/Sports)
 
 <br>
 
