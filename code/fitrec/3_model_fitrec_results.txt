@@ -59,3 +59,237 @@ compute missing speed
 ['lr', 'knn', 'dtc', 'rfc', 'abc', 'gbc']
 [0.5151018518518519, 0.9781666666666666, 0.5673888888888889, 0.5776574074074075, 0.474, 0.9678703703703704]
 [{'lr__penalty': 'l1'}, {'knn__n_neighbors': 3, 'knn__weights': 'distance'}, {'dtc__max_depth': 7, 'dtc__max_features': None, 'dtc__min_samples_split': 0.1}, {'rfc__max_depth': 5, 'rfc__max_features': 'log2', 'rfc__min_samples_split': 0.1, 'rfc__n_estimators': 15}, {'abc__learning_rate': 0.3571428571428572, 'abc__n_estimators': 50}, {'gbc__learning_rate': 0.4, 'gbc__max_depth': 3, 'gbc__n_estimators': 100}]
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95','alt_avg']
+
+Logisitic Regression Model
+rows:actual columns:predicted
+accuracy_score: 0.7259374605445899
+f1_score: 0.8204834522483225
+precision_score: 0.9590530106572835
+recall_score: 0.7259374605445899
+
+KNN Model
+rows:actual columns:predicted
+accuracy_score: 0.9165018307310299
+f1_score: 0.9358730941495267
+precision_score: 0.9611962652336822
+recall_score: 0.9165018307310299
+
+DTC Model
+rows:actual columns:predicted
+accuracy_score: 0.8214932031480157
+f1_score: 0.8810230563930554
+precision_score: 0.964176171453976
+recall_score: 0.8214932031480157
+
+RFC Model
+rows:actual columns:predicted
+accuracy_score: 0.8804553680400656
+f1_score: 0.9173025181861238
+precision_score: 0.967504809330536
+recall_score: 0.8804553680400656
+
+SVC Model
+rows:actual columns:predicted
+accuracy_score: 0.7764193426202601
+f1_score: 0.8568074550856449
+precision_score: 0.9705381308502885
+recall_score: 0.7764193426202601
+
+VC Model
+rows:actual columns:predicted
+accuracy_score: 0.8799503387904549
+f1_score: 0.9179321780378716
+precision_score: 0.9694696496083907
+recall_score: 0.8799503387904549
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95','alt_avg','alt_diff']
+
+Logisitic Regression Model
+rows:actual columns:predicted
+accuracy_score: 0.7145322166575481
+f1_score: 0.8120707988568342
+precision_score: 0.9589569317627341
+recall_score: 0.7145322166575481
+
+KNN Model
+rows:actual columns:predicted
+accuracy_score: 0.919574091999495
+f1_score: 0.9374960868721119
+precision_score: 0.9613457830817395
+recall_score: 0.919574091999495
+
+DTC Model
+rows:actual columns:predicted
+accuracy_score: 0.8049745381086655
+f1_score: 0.8712627092417558
+precision_score: 0.9643904444573703
+recall_score: 0.8049745381086655
+
+RFC Model
+rows:actual columns:predicted
+accuracy_score: 0.8832540717983249
+f1_score: 0.9191863178366066
+precision_score: 0.9679334267156701
+recall_score: 0.8832540717983249
+
+SVC Model
+rows:actual columns:predicted
+accuracy_score: 0.7824796936155886
+f1_score: 0.860929668063638
+precision_score: 0.9706722715371252
+recall_score: 0.7824796936155886
+
+VC Model
+rows:actual columns:predicted
+accuracy_score: 0.875426118429359
+f1_score: 0.9157328963510161
+precision_score: 0.9697654456884156
+recall_score: 0.875426118429359
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95','alt_avg','alt_min','alt_max']
+
+Logisitic Regression Model
+rows:actual columns:predicted
+accuracy_score: 0.7135011152729263
+f1_score: 0.8114242993906943
+precision_score: 0.9590163850981451
+recall_score: 0.7135011152729263
+
+KNN Model
+rows:actual columns:predicted
+accuracy_score: 0.9194899204578932
+f1_score: 0.9374907357987108
+precision_score: 0.9612561285804454
+recall_score: 0.9194899204578932
+
+DTC Model
+rows:actual columns:predicted
+accuracy_score: 0.8270695677791339
+f1_score: 0.8848369921044836
+precision_score: 0.9633190855965836
+recall_score: 0.8270695677791339
+
+RFC Model
+rows:actual columns:predicted
+accuracy_score: 0.8892723370228526
+f1_score: 0.9226097337675608
+precision_score: 0.9676203243505821
+recall_score: 0.8892723370228526
+
+SVC Model
+rows:actual columns:predicted
+accuracy_score: 0.7668448297630571
+f1_score: 0.8510508215211938
+precision_score: 0.9705307787944729
+recall_score: 0.7668448297630571
+
+VC Model
+rows:actual columns:predicted
+accuracy_score: 0.8822860990699045
+f1_score: 0.9196017323938308
+precision_score: 0.9694018943456464
+recall_score: 0.8822860990699045
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95']
+
+Logisitic Regression Model
+rows:actual columns:predicted
+accuracy_score: 0.7327553554143345
+f1_score: 0.8247879586427285
+precision_score: 0.9598584199561208
+recall_score: 0.7327553554143345
+
+KNN Model
+rows:actual columns:predicted
+accuracy_score: 0.9054543158957956
+f1_score: 0.9296845256471538
+precision_score: 0.9603947797730099
+recall_score: 0.9054543158957956
+
+DTC Model
+rows:actual columns:predicted
+accuracy_score: 0.7756617987458441
+f1_score: 0.855577912674229
+precision_score: 0.966131484296418
+recall_score: 0.7756617987458441
+
+RFC Model
+rows:actual columns:predicted
+accuracy_score: 0.8541728041749085
+f1_score: 0.9035303671281893
+precision_score: 0.9688066902117405
+recall_score: 0.8541728041749085
+
+SVC Model
+rows:actual columns:predicted
+accuracy_score: 0.7517149951601364
+f1_score: 0.8410296922210929
+precision_score: 0.9705458781961073
+recall_score: 0.7517149951601364
+
+VC Model
+rows:actual columns:predicted
+accuracy_score: 0.8504902992298304
+f1_score: 0.9016530507820957
+precision_score: 0.9696296595887564
+recall_score: 0.8504902992298304
+
+-------------------------------------------------------------------------------------------------------------
+
+cols = ['sport','hr_outof','hr_fatburn','hr_cardio','hr_peak','spd_avg','spd_95','alt_avg','alt_min','alt_max']
+
+if speed > speed_max:
+	#record['speed'][i] = 0.0
+	record['speed'][i] = record['speed'][i-1]
+	
+Logisitic Regression Model
+rows:actual columns:predicted
+accuracy_score: 0.7117755986700897
+f1_score: 0.8102472219445799
+precision_score: 0.9591250034468513
+recall_score: 0.7117755986700897
+
+KNN Model
+rows:actual columns:predicted
+accuracy_score: 0.9194899204578932
+f1_score: 0.9375038945147637
+precision_score: 0.9613021254573632
+recall_score: 0.9194899204578932
+
+DTC Model
+rows:actual columns:predicted
+accuracy_score: 0.8277218972265477
+f1_score: 0.8855315350644161
+precision_score: 0.9640667339660356
+recall_score: 0.8277218972265477
+
+RFC Model
+rows:actual columns:predicted
+accuracy_score: 0.8872522200244097
+f1_score: 0.9211778598187631
+precision_score: 0.966912052869062
+recall_score: 0.8872522200244097
+
+SVC Model
+rows:actual columns:predicted
+accuracy_score: 0.7662345860864441
+f1_score: 0.8505985998425053
+precision_score: 0.9703492906109574
+recall_score: 0.7662345860864441
+
+VC Model
+rows:actual columns:predicted
+accuracy_score: 0.8799292959050545
+f1_score: 0.9182855005571942
+precision_score: 0.9696136946551062
+recall_score: 0.8799292959050545
