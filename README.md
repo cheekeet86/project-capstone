@@ -140,6 +140,10 @@ Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fi
 
 ![Minority Report](images/part-04/wilson_minority.jpg)
 
+Coming Soon
+
+<br>
+
 ## Credits
 
 [1] Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. http://doi.org/10.5281/zenodo.53894
