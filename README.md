@@ -138,7 +138,7 @@ Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fi
 
 ## Episode IV
 
-<i>Report will be out in 2054..</i>
+![Minority Report](images/part-04/wilson_minority.jpg)
 
 ## Credits
 
