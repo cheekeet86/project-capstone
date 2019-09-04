@@ -73,10 +73,10 @@ Each row represents a workout:
 | --- | --- |
 | Meta | Workout ID, User ID, Gender, Sport, URL |
 | Time | Start, End, Duration |
-| Location | Start/End Latitude/Longit,ude |
+| Location | Start/End Latitude/Longitude |
 | Altitude | Avg/Min/Max, Different Percentiles and Difference (Max-Min) |
 | Heart-Rate | Avg/Min/Max Different Percentiles and Heart-Rate Zones |
-| Speed | Avg/Min/MaxDifferent,  Percentiles and Speed Zones |
+| Speed | Avg/Min/Max, Different Percentiles and Speed Zones |
 | Impute | 0: Original Speed 1: Derived Speed |
 
 <br>
@@ -130,7 +130,7 @@ I removed these outliers during the modelling process.
 
 I created scatterplots e.g. Heart-Rate vs Speed by Sports. I could use heart-rates (either using aggregated values or zones) and speed (aggregate values) as features to develop the classification model.
 
-<b>blank (Tableau)</b>
+<i>More Updates on Tableau Dashbboard</i>
 
 Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fitrec/2_eda_fitrec_2.ipynb) | [tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec_2/Sports)
 
