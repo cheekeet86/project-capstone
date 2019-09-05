@@ -150,7 +150,7 @@ Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
 ![Presentation](images/part-05/presentation.jpg)
 
-Watch the last episode: [Link](documents/part-05/part-05%(final).pptx)
+Watch the last episode: [Link](documents/part-05/part-05_final.pptx)
 
 <br>
 
