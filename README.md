@@ -140,7 +140,17 @@ Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fi
 
 ![Minority Report](images/part-04/wilson_minority.jpg)
 
-Coming Soon
+Watch here for more updates.
+
+Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
+
+<br>
+
+## Episode V
+
+![Presentation](images/part-05/presentation.jpg)
+
+Watch the last episode: [Link](documents/part-05/part-05%(final).pptx)
 
 <br>
 
