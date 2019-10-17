@@ -146,6 +146,14 @@ I ended with 43 different sports after removing the outliers. I decided to only 
 
 Next, I reduced the number of sports by merging similar sports e.g. fitness walking and walking. Sports with fewer than 50 workouts (e.g. horseback riding) were removed and ended up with 9 sports to perform modelling.
 
+I created the following features for modelling:
+
+| Feature Type | Feature Name |
+| --- | --- |
+| Heartrate Zone | Out-of-Zone, Fatburn, Cardio, Peak |
+| Speed | Average, 95th-Percentile |
+| Altitude | Minimum, Average, Maximum |
+
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
 <br>
