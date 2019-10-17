@@ -158,6 +158,8 @@ I created the following features for modelling:
 | Speed | Average, 95th-Percentile |
 | Altitude | Minimum, Average, Maximum |
 
+I used both downsampling and upsampling to handle the imbalanced datasets i.e. certain sports have very high (e.g running) or low (e.g. kayaking) number of workouts. Downsampling was done without replacement while Upsampling was done with replacements. 
+
 Finally, I used the Voting Classifier to make prediction for the multi-classification problem. The Voting Classifier used the following estimators:
 
 1. Logistic Regression
@@ -166,9 +168,12 @@ Finally, I used the Voting Classifier to make prediction for the multi-classific
 4. Random Forest Classifier
 5. Support Vector Machine
 
-The Confusion Matrix below shows the Accuracy Scores for the Voting Classifier:
+The Confusion Matrix below shows the Accuracy Scores for the predictions (Voting Classifer):
 
 ![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png)
+
+Rows: Actual Sports
+Columns: Predicted Sports
 
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
