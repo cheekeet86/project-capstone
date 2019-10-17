@@ -142,7 +142,11 @@ The massive Endomondo dataset were aggregated in summary tables. The summary tab
 
 I performed data cleaning before doing feature selection. For instance, I dropped workouts with abnormal heartrates (e.g. below 40 BPM) or long durations (i.e. longer than 24 hours). In additonal, I removed workouts with abnormal altitudes.. some workouts were done at height above Mount Everest.. obvious GPS error!
 
-I ended with 43 different sports after removing the outliers. I decided to only model 'dynamic' sports by removing 'static' sports. 'Dynamic' refers to sports which may be easily distinguishable by their speed profiles (usually done outdoor like cycling). 'Static' refers to sports which may not be distinguishable by their speed profiles (usually done indoor like martial arts.
+I ended with 43 different sports after removing the outliers. I decided to only model 'dynamic' sports by removing 'static' sports.
+
+'Dynamic' refers to sports which may be easily distinguishable by their speed profiles (usually done outdoor like cycling). 
+
+'Static' refers to sports which may not be distinguishable by their speed profiles (usually done indoor like martial arts.
 
 Next, I reduced the number of sports by merging similar sports e.g. fitness walking and walking. Sports with fewer than 50 workouts (e.g. horseback riding) were removed and ended up with 9 sports to perform modelling.
 
@@ -153,6 +157,18 @@ I created the following features for modelling:
 | Heartrate Zone | Out-of-Zone, Fatburn, Cardio, Peak |
 | Speed | Average, 95th-Percentile |
 | Altitude | Minimum, Average, Maximum |
+
+Finally, I used the Voting Classifier to make prediction for the multi-classification problem. The Voting Classifier used the following estimators:
+
+1. Logistic Regression
+2. K-Nearest Neighbors Classifier
+3. Decision Tree Classifier
+4. Random Forest Classifier
+5. Support Vector Machine
+
+The Confusion Matrix below shows the Accuracy Scores for the Voting Classifier:
+
+![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png.jpg)
 
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
