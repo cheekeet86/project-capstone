@@ -168,7 +168,7 @@ Finally, I used the Voting Classifier to make prediction for the multi-classific
 
 The Confusion Matrix below shows the Accuracy Scores for the Voting Classifier:
 
-![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png.jpg)
+![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png)
 
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
