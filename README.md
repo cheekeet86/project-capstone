@@ -170,9 +170,11 @@ Finally, I used the Voting Classifier to make prediction for the multi-classific
 
 The Confusion Matrix below shows the Accuracy Scores for the predictions using the Voting Classifer:
 
+![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png)
+
 <i>Rows: Actual Sports &emsp; Columns: Predicted Sports</i>
 
-![VC Model Accuracy Scores](images/part-03/vcmodel_cm_accuracy.png)
+<br>
 
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
