@@ -130,8 +130,6 @@ I removed these outliers during the modelling process.
 
 I created scatterplots e.g. Heart-Rate vs Speed by Sports. I could use heart-rates (either using aggregated values or zones) and speed (aggregate values) as features to develop the classification model.
 
-<i>More Updates on Tableau Dashbboard</i>
-
 Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fitrec/2_eda_fitrec_2.ipynb) | [tableau](https://public.tableau.com/profile/cheekeet#!/vizhome/2_eda_fitrec_2/Sports)
 
 <br>
@@ -140,9 +138,13 @@ Links: [2_eda_fitrec](code/fitrec/2_eda_fitrec.ipynb) | [2_eda_fitrec_2](code/fi
 
 ![Minority Report](images/part-04/wilson_minority.jpg)
 
-The massive Endomondo dataset were aggregated in summary tables. The summary tables were used to predict the workout type using various classification models.
+The massive Endomondo dataset were aggregated in summary tables. The summary tables were used to predict the type of workout using various classification models.
 
-I performed data cleaning before doing feature selection. For instance, I dropped workouts with abnormal heartrates (e.g. below 40 BPM) or long durations (i.e. longer than 24 hours). In additonal, I removed workouts with abnormal altitudes.. some workouts were done at height above Mount Everest (obvious GPS error)!
+I performed data cleaning before doing feature selection. For instance, I dropped workouts with abnormal heartrates (e.g. below 40 BPM) or long durations (i.e. longer than 24 hours). In additonal, I removed workouts with abnormal altitudes.. some workouts were done at height above Mount Everest.. obvious GPS error!
+
+I ended with 43 different sports after removing the outliers. I decided to only model 'dynamic' sports by removing 'static' sports. 'Dynamic' refers to sports which may be easily distinguishable by their speed profiles (usually done outdoor like cycling). 'Static' refers to sports which may not be distinguishable by their speed profiles (usually done indoor like martial arts.
+
+Next, I reduced the number of sports by merging similar sports e.g. fitness walking and walking. Sports with fewer than 50 workouts (e.g. horseback riding) were removed and ended up with 9 sports to perform modelling.
 
 Links: [3_model_fitrec](code/fitrec/3_model_fitrec.ipynb)
 
